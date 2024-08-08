@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fcc8e9a-c485-445e-93ed-bd8989ec1d40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/actions/HomePageActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/actions/LoginPageActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/locators/HomePageLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/locators/LoginPageLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/utils/HelperClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/definitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/definitions/LoginPageDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/CucumberRunnerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
