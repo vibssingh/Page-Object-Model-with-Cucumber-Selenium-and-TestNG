@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fcc8e9a-c485-445e-93ed-bd8989ec1d40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/RunnerTestsFailed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/RunnerTestsSecondFailed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/runner/CucumberRunnerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/RunnerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +52,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.CucumberRunnerTests.executor": "Run",
-    "kotlin-language-version-configured": "true"
+    "TestNG.FailedTestRunner.executor": "Run",
+    "TestNG.RunnerTestsFailed.executor": "Coverage",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vibha/Documents/Automation/Page-Object-Model-with-Cucumber-Selenium-and-TestNG",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="CucumberRunnerTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.runner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.RunnerTestsFailed">
+    <configuration name="RunnerTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_Cucumber_TestNG_Demo" />
       <extension name="coverage">
         <pattern>
@@ -59,7 +78,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.runner" />
-      <option name="MAIN_CLASS_NAME" value="com.example.runner.CucumberRunnerTests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.runner.RunnerTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTestsFailed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM_Cucumber_TestNG_Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.example.runner.RunnerTestsFailed" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -69,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RunnerTestsFailed" />
         <item itemvalue="TestNG.CucumberRunnerTests" />
       </list>
     </recent_temporary>
@@ -152,5 +189,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Page_Object_Model_with_Cucumber_Selenium_and_TestNG$RunnerTestsFailed.ic" NAME="RunnerTestsFailed Coverage Results" MODIFIED="1730074238668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.example.runner.*</FILTER>
+    </SUITE>
   </component>
 </project>

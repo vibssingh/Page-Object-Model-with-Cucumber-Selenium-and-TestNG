@@ -3,7 +3,9 @@
 <suite name="Suite">
     <test  name="Cucumber with TestNG Test">
         <classes>
-            <class name="com.example.runner.CucumberRunnerTests"/>
+            <class name="com.example.runner.RunnerTests"/>
+            <class name="com.example.runner.RunnerTestsFailed"/>
+            <class name="com.example.runner.RunnerTestsSecondFailed"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

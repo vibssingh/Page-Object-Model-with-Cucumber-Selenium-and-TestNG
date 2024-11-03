@@ -13,13 +13,14 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <cucumber.version>7.18.1</cucumber.version>
-    <selenium.version>4.23.0</selenium.version>
+    <selenium.version>4.25.0</selenium.version>
     <testng.version>7.10.2</testng.version>
     <apache.common.version>2.4</apache.common.version>
     <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
     <maven.surefire.plugin.version>3.3.1</maven.surefire.plugin.version>
     <maven.compiler.source.version>17</maven.compiler.source.version>
     <maven.compiler.target.version>17</maven.compiler.target.version>
+    <maven.cucumber.reporting.version>5.8.2</maven.cucumber.reporting.version>
   </properties>
 
   <dependencies>
@@ -52,13 +53,12 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Apache Common -->
+    <!-- Cucumber Reporting -->
     <dependency>
-      <groupId>org.apache.directory.studio</groupId>
-      <artifactId>org.apache.commons.io</artifactId>
-      <version>${apache.common.version}</version>
+      <groupId>net.masterthought</groupId>
+      <artifactId>cucumber-reporting</artifactId>
+      <version>${maven.cucumber.reporting.version}</version>
     </dependency>
-
 
   </dependencies>
 
@@ -78,11 +78,41 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${maven.surefire.plugin.version}</version>
         <configuration>
+          <testFailureIgnore>true</testFailureIgnore>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
+
+      <plugin>
+        <groupId>net.masterthought</groupId>
+        <artifactId>maven-cucumber-reporting</artifactId>
+        <version>${maven.cucumber.reporting.version}</version>
+
+        <executions>
+          <execution>
+            <id>generate-cucumber-report</id>
+            <phase>test</phase>
+            <goals>
+              <goal>generate</goal>
+            </goals>
+            <configuration>
+              <projectName>Cucumber Reporting Example</projectName>
+              <outputDirectory>target/cucumber-html-reports</outputDirectory>
+              <inputDirectory>target</inputDirectory>
+              <jsonFiles>
+                <!-- Include both main and rerun JSON reports -->
+                <param>target/cucumber-reports/cucumber-report.json</param>
+                <param>target/cucumber-reports/cucumber-rerun1-report.json</param>
+                <param>target/cucumber-reports/cucumber-rerun2-report.json</param>
+                <param>**/*.json</param>
+              </jsonFiles>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
     </plugins>
   </build>
 </project>
